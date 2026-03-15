@@ -92,3 +92,21 @@ form button:hover{
     right:20px;
 }
 
+/** MOBILE RESPONSIVENESS **/
+ @media(max-width:600px){
+    .container{
+        height:45vh;
+        width: 35vh;
+    }
+    .msg{
+        margin-top:2rem;
+    }
+    button{
+        margin-top:1rem;
+    }
+    .signature {
+        font-size: 1.2rem;
+        right: 10px;
+        bottom: 10px;
+    }
+ }
